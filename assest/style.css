@@ -1,0 +1,188 @@
+/* Custom CSS */
+body{font-family: 'Play', sans-serif;background: url('img/admin.jpg');}
+a:hover { text-decoration: none;}
+.admin-logo {margin: -10px 0;}
+.admin-logo img {width: 170px;}
+
+.signin-area {
+  
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.signin-logo {
+  margin: 100px 0 34px -20px;
+  text-align: center;
+}
+.meg_alert {
+  color: #f00;
+  display: block;
+  padding: 13px 34px 0;
+}
+
+.form-signin {
+  background: rgba(255, 255, 255, 0.14) none repeat scroll 0 0;
+  margin: 0 auto;
+  max-width: 330px;
+}
+.login-wrap {
+  padding: 30px;
+  position: relative;
+}
+.user-login-info {
+  margin: -20px -20px -13px;
+  padding: 20px;
+}
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    margin-bottom: 15px;
+    border: 1px solid #eaeaea;
+    box-shadow: none;
+    font-size: 12px;
+    border-radius: 0;
+}
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .btn-login {
+  background: #26B2AA none repeat scroll 0 0;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.form-signin a {color: #fff;}
+.form-signin a:hover {text-decoration: none; color: #fff;}
+
+
+button, input, select, textarea, .btn{border-radius: 0 !important;}
+.nav > li > a:focus, .nav > li > a{background: #222;color: #ddd;outline: 0 none;transition: 0.5s;
+  text-transform: uppercase;}
+.nav > li > a:focus, .nav > li > a:hover{
+    background: #26B2AA;
+    color: #fff;
+    outline: 0 none;
+}
+.panel-primary > .panel-heading {
+  background-color: #26b2aa;
+  border-color: #26b2aa;
+  border-radius: 0;
+}
+.panel-footer{
+  border-radius: 0;
+}
+.panel-primary {
+  border-color: #26B2AA;
+}
+.panel-footer {
+  background-color: #222;
+  color: #fff;
+  transition: 0.5s;
+}
+.panel-footer:hover {color: #26B2AA;}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: #26b2aa;
+  color: #fff;
+}
+.modal-header{
+  color: #fff;
+  background-color: #26b2aa;
+}
+.nav-tabs li a {
+  background: #fff none repeat scroll 0 0;
+  border-bottom: 1px solid #ddd;
+  color: #000;
+}
+select>option{
+  padding: 8px 0 8px 10px;
+}
+.coustomer_panel{
+  border: 1px solid #ddd;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 15px;
+}
+.product_settel1 {
+  background: #eee none repeat scroll 0 0;
+  border: 1px solid #26b2aa;
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+.product_settel1 > .form-group {
+  
+}
+.product_settel {
+  background: #eee none repeat scroll 0 0;
+  border: 1px solid #26b2aa;
+  margin-bottom: 22px;
+  padding: 15px;
+}
+.label {
+  padding: 0.2em 0.6em 0px;
+}
+
+.paginations>a,.paginations>strong{border:1px solid #eee;padding:8px 10px;transition: 0.5s;outline: 0 none;}
+.paginations>a:hover,.paginations>strong:hover{background: #eee;text-decoration: none;}
+
+.table-responsive{font-size: 13px;}
+
+.sell_cous_result {
+  background: #31b0d5 none repeat scroll 0 0;
+  border: 1px solid #eee;
+  display: block;
+  list-style: outside none none;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 287px;
+  color: #fff;
+}
+.sell_cous_result li {
+  border-bottom: 1px solid #ffffff;
+  cursor: pointer;
+  padding: 7px 0 7px 12px;
+}
+.panel{border-radius: 0;}
+.date_search {
+  background: #eee none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  margin-bottom: 22px;
+  padding: 16px 0 4px;
+}
+
+
+/*loader*/
+body{width: 100%; height: 100%;}
+.spinner{width: 80px; height: 80px; border: 2px solid #f3f3f3; 
+  border-top: 3px solid #f25a41; border-radius: 100%;position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0; margin: auto;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+#overlay{
+  height: 100%;width: 100%; background: rgba(0,0,0,0.8); position: fixed;
+  left: 0; top: 0; 
+  z-index: 9999;
+}
+.sidebar_ul2{list-style-type: square;}
+#modal_sm_result, #modal_lg_result, #modal_md_result, #modal_lgg_result {
+  border: 1px solid #eee;
+  overflow: scroll;
+  padding: 10px;
+  max-height: 440px;
+}
